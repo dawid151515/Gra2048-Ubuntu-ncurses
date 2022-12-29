@@ -8,9 +8,9 @@ Uruchomienie gry na Linux Ubuntu:
 1. Na początku należy zainstalować bibliotekę ncurses wpisując w konsolę następujące polecenie:
   sudo apt-get install libncurses5.dev libncursesw5-dev
 2. Korzystając z makefile, w konsolę wpisujemy następujące polecenia:
-   a) make gra2048.o
-   b) make main.o
-   c) make gra2048
+   a. make gra2048.o
+   b. make main.o
+   c. make gra2048
 3. Po poprawnym wykonaniu tych poleceń można uruchomić grę wpisując w konsolę następujące polecenie:
    ./gra2048
    
