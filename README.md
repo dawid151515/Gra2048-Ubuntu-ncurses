@@ -13,6 +13,7 @@ Uruchomienie gry na Linux Ubuntu:
    c) make gra2048
 3. Po poprawnym wykonaniu tych poleceń można uruchomić grę wpisując w konsolę następujące polecenie:
    ./gra2048
+4. Gdy nie chcemy korzystać już z tej aplikacji, możemy użyć polecenia make clean, które usunie zbędne pliki, a mianowicie gra2048.o, main.o oraz plik uruchomieniowy gry    gra2048, lecz pliki główne, które niezbędne są do komplikacji nie zostaną usunięte, by można było w przyszłości jeszcze skompilować tą grę ponownie.
    
  W folderze "Plik-wykonywalny" znajduje się plik, który już został skompilowany, a więc po pobraniu go na linuxa ubuntu, wystarczy go uruchomić i gra powinna działać (jeśli nie działa to należy wykonać napisane powyżej kroki). Aby uruchomić ten plik należy w konsolę wpisać polecenie:
   ./gra2048
